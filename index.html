@@ -7,20 +7,27 @@
 <style>
 *{
   font-family:verdana;
+  color:white;
 }
-
+body{
+  background-color:#162D46;
+}
 a{
   text-decoration:none;
-  text-color:black;
+  color:white;
 
 }
 
 a:link{
-    text-color:black;
+    color:white;
 }
 
 a:visited{
-    text-color:black;
+    color:white;
+}
+
+a:hover{
+   color:white;
 }
 
 .topbar li{
@@ -38,17 +45,23 @@ a:visited{
 
 .topbar{
   border: 2px black solid;
-  min-width:100%;
+  width:100%;
+  border-radius: 25px;
+  background-color:teal;
 }
 
 #body {
+border-radius: 25px;
 margin-right:auto;
 margin-left:auto;
 text-align:center;
 width:80%;
 border:2px solid black;
 margin-top: 5px;
+padding-top:5px;
 min-height:400px;
+color:white;
+background-color:teal;
 }
 
 
@@ -64,33 +77,32 @@ min-height:400px;
   position:fixed;
   bottom:0px;
   border:2px black solid;
-  height:10%;
+  height:60px;
   width:100%;
-  background-color:white;
+  background-color:teal;
+
 }
 </style>
 </head>
 
 <body>
-<div class="topbar">
+<header class="topbar">
 <ul>
 <li id="topleft">Justin Yee's Portfolio</li>
 <li class=buttons><a href="index.html">Home</a></li>
 <li class=buttons><a href="portfolio.html">Projects</a></li>
-<li class=buttons><a href="blog.html">Blog</a></li>
+<li class=buttons><a href="blog/index.html">Blog</a></li>
 <li class=buttons><a href="about.html">About</a></li>
 </ul>
-</div>
-<div>
+</header>
+<section>
   <img src="images/giphy.gif" id="center">
 
-</div>
-<div id="body">
+</section>
+<section id="body">
   Welcome to Justin Yee's portfolio and blog!
-  </div>
-<div id="footer">
-
-</div>
+  </section>
+<footer id="footer"></footer>
 </body>
 
 </html>
