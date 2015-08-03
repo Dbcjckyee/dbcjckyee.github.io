@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Justin Yee!</title>
+<link rel="stylesheet" href="../stylesheet.css" type="text/css">
+
+</head>
+
+<body>
+<header class="topbar">
+<ul>
+<li id="topleft">Justin Yee's Portfolio</li>
+<li class=buttons><a href="../index.html">Home</a></li>
+<li class=buttons><a href="../portfolio.html">Projects</a></li>
+<li class=buttons><a href="index.html">Blog</a></li>
+<li class=buttons><a href="../about.html">About</a></li>
+<li class=buttons><a href="../contact.html">Contact</a></li>
+</ul>
+</header>
+<main>
+<section>
+  <img src="../images/giphy.gif" id="center">
+</section>
+<section id="body">
+  <h1>Enumerables</h1>
+  <h4>8/2/2015</h4>
+
+  <section>
+
+    <p>
+       Enumerable methods in Ruby exist to help you move through values in data sets one at a time. One enumerable method out there is called map. The basic function of map involves taking an array of items and putting out a new array that contains modifications to some or each item. For instance, you can have an array of integers [1,2,3,4,5] and multiply each integer by a constant.
+      </p>
+      <p>
+      Obvously, this saves a lot of time if you need to make a lot of changes to array values. Instead of going array[0] += 1, array[1] += 1, and so forth, all you need to do is run the map method. Similarly, map can help add characters to strings in arrays.
+      </p>
+      <p>
+        Here are a couple of examples:
+        <br><br>
+        [10,20,30,40].map {|x| x * 10}
+        <br>
+        ["I", "am", "having", "a", "great", "day"].map {|x| x += "!"}
+        <br>
+        <br>
+        What do you think these return?
+      </p>
+      <p>
+      I really like map because it just saves me a lot of time. So far, I've pretty much mapped out characters to strings and value to numbers. It's a pretty powerful tool if you think that you can literally modify an array with a million values with a single line of code. I bet there are even stronger, more practical applications out there, but I am still just starting out with my little 1s and 0s.
+      </p>
+</section>
+</main>
+<footer id="footer">
+<section class="lineup">
+<ul>
+<li><img src="../images/linkedin.png" class="logo"></li>
+<li><img src="../images/Github.png" class="logo"></li>
+<li><img src="../images/Twitter.png" class="logo"></li>
+<li><img src="../images/Email.png" class="logo"></li>
+</ul>
+</section>
+</footer>
+</body>
+
+</html>
