@@ -108,7 +108,24 @@ h4{
   text-align:center;
 }
 
+h5{
+  text-align: left;
+  font-size: 125%;
+  margin-bottom: 5px;
+}
 
+.dates{
+  text-align: left;
+  font-size: 110%;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.resumetext{
+  text-align: left;
+  font-size: 100%;
+  margin-top: 3px;
+}
 .blog{
   border: 1px dashed black;
   padding: 10px;
