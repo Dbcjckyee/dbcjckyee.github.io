@@ -149,3 +149,21 @@ h5{
 .linkspace{
   margin:20px;
 }
+
+.portfoliotable{
+  width:80%;
+  border: 1px solid black;
+
+}
+.projectname{
+  width:30%;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.projectdesc{
+  width:70%;
+  border: 1px solid black;
+  padding: 8px;
+
+}
