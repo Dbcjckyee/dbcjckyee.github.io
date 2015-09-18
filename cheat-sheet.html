@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Justin Yee!</title>
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+</head>
+
+<body>
+<header class="topbar">
+  <li id ="topleft">Justin Yee's Portfolio</li>
+  <li class="buttons"><a href="contact.html">Contact</a></li>
+  <li class="buttons"><a href="about.html">About</a></li>
+  <li class="buttons"><a href="blog/index.html">Blog</a></li>
+  <li class="buttons"><a href="projects/index.html">Projects</a></li>
+  <li class="buttons"><a href="index.html">Home</a></li>
+</header>
+<main>
+<section>
+  <img src="images/giphy.gif" id="center">
+
+</section>
+<section id="body">
+  <table  class="separator">
+    <tr>
+      <td class="cheatheader">
+        RUBY
+      </td>
+    </tr>
+  </table>
+  <table class="separator">
+    <tr>
+      <td class="cheattitle">
+      Method
+    </td>
+    <td class="cheattitle">
+      Example
+    </td>
+    <td class="cheattitle">
+      Explanation
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .each_slice
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">(1..8).each_slice(4)= [1,2,3,4][5,6,7,8]</span>
+    </td>
+    <td class="cheatcolumn">
+      Acts off a collection and takes an integer argument. Divides collection into arrays of (integer) length.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .any?
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">[124, 100, 800].any? {|num| num % 4 == 0} = true</span>
+    </td>
+    <td class="cheatcolumn">
+      Goes through a collection and passes each element through the block. If there is a true element in the collection, it returns true.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .transpose
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">[["a","b","c","d"],["e","f","g","h"]].transpose = [["a","e"],["b,"f"],["c","g"],["d","h"]]</span>
+    </td>
+    <td class="cheatcolumn">
+      Takes an array an pairs the 1st elements together in a new array. Does the same for each subsequent pair (2nd+2nd, 3rd+3rd, etc.).
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .take_while
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">[1, 2, 3, 4, 5, 0].take_while { |i| i < 4 } = [1,2,3]</span>
+    </td>
+    <td class="cheatcolumn">
+      Returns all elements that fall in the block's conditions until nil/false is returned. Stops returning then.
+    </td>
+    </tr>
+</table>
+  <table  class="separator">
+    <tr>
+      <td class="cheatheader">
+        SQL
+      </td>
+    </tr>
+  </table>
+  <table class="separator">
+    <tr>
+      <td class="cheattitle">
+      Keyword
+    </td>
+    <td class="cheattitle">
+      Example
+    </td>
+    <td class="cheattitle">
+      Explanation
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      SELECT
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">select * from countries</span>
+    </td>
+    <td class="cheatcolumn">
+      Returns all items in column [*] within the database of countries.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      INNER JOIN
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">FROM names INNER JOIN people</span>
+    </td>
+    <td class="cheatcolumn">
+      Links two databases together and returns rows with a match that appear in both tables.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      ORDER BY
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">states.id ORDER BY region.id ASC/DESC</span>
+    </td>
+    <td class="cheatcolumn">
+      Takes the first column and sorts the results by the second column. Can order items in ASCending or DESCending fashion.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      BETWEEN
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">WHERE state.id BETWEEN 1 AND 6</span>
+    </td>
+    <td class="cheatcolumn">
+      Looks at the column after WHERE and returns all matches that fall between the arguments that are within BETWEEN.
+    </td>
+    </tr>
+</table>
+  <table  class="separator">
+    <tr>
+      <td class="cheatheader">
+        JAVASCRIPT
+      </td>
+    </tr>
+  </table>
+  <table class="separator">
+    <tr>
+      <td class="cheattitle">
+      Method
+    </td>
+    <td class="cheattitle">
+      Example
+    </td>
+    <td class="cheattitle">
+      Explanation
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .reduce
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">[1,2,3,4,5].reduce(function(a,b){return a+b;}) = 15</span>
+    </td>
+    <td class="cheatcolumn">
+      Takes a collection and applies the function in the reduce argument to it. Useful for combining objects and finding totals.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .filter
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">[4,10,20,30].filter(function(a){return a > 15}) = [20,30]</span>
+    </td>
+    <td class="cheatcolumn">
+      Takes a collection and returns the values that meet the criteria supplied in the argument's function.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .indexOf
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">["steve","jam","cat","people"].indexOf("jam") = 1</span>
+    </td>
+    <td class="cheatcolumn">
+      Returns the index of the supplised argument within the collection it is in.
+    </td>
+    </tr>
+     <tr>
+      <td class="cheatcolumn">
+      .sort
+    </td>
+    <td class="cheatcolumn">
+      <span class ="code">[4, 2, 5, 1, 3].sort(function(a,b){return a-b}} = [1,2,3,4,5]</span>
+    </td>
+    <td class="cheatcolumn">
+      Takes a collection and sorts it in ascending or descending order.
+    </td>
+    </tr>
+</table>
+</section>
+</main>
+<footer id="footer">
+<section id="bottom">
+(C)Justin Yee
+</section>
+</footer>
+</body>
+
+</html>
