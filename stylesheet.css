@@ -126,11 +126,16 @@ h5{
   font-size: 100%;
   margin-top: 3px;
 }
-.blog{
+
+.tablebuttons{
   border: 1px dashed black;
   padding: 10px;
   text-align: center;
   background-color: lightblue;
+  height:150px;
+  width:150px;
+  border-radius: 100px;
+
 }
 
 .middle{
@@ -150,22 +155,6 @@ h5{
   margin:20px;
 }
 
-.portfoliotable{
-  width:80%;
-  border: 1px solid black;
-
-}
-.projectname{
-  width:30%;
-  border: 1px solid black;
-  padding: 8px;
-}
-
-.projectdesc{
-  width:70%;
-  border: 1px solid black;
-  padding: 8px;
-}
 .separator{
   margin-bottom:10px;
   width:100%;
@@ -203,4 +192,24 @@ h5{
   background-color:black;
   color:yellow;
   font-style:helvetica;
+}
+
+
+.borders{
+  border-spacing: 15px 30px;
+}
+
+#divebar, .projectbuttons{
+  border: 1px dashed black;
+  padding: 30px;
+  text-align: center;
+  background-color: lightblue;
+  height:250px;
+  width:250px;
+  border-radius: 200px;
+
+}
+
+.nohover:hover{
+  color:black;
 }
