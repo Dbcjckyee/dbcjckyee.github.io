@@ -1,8 +1,8 @@
 $(document).ready(function(){
 // $('section').css({'background-color': 'black'})
+  storedtext = $('#divebar').html();
 
 $('#divebar').hover(function(){
-  storedtext = $(this).html();
   $(this).html("<a href = 'http://www.github.com' class='nohover'>" + "This is one of the first Javascript projects I worked on while starting off in the language. It's meant to be a novice game that calls and changes varies properties between different objects.Perhaps down the line, I can add things such as an interface and a command line where players can input their commands." + "</a href>")},
 
   function(){$(this).html(storedtext);
@@ -13,8 +13,8 @@ $('#divebar').hover(function(){
 // })
 $('#center').css('cursor', 'pointer');
 $('#center').click(function(){
-$('#background').css('background-image', 'url(../images/static.gif)');
-alert("YOU BROKE THE PAGE!");
+$('#background').css('background-image', 'url(http://dbcjckyee.github.io/images/static.gif)');
+alert("oops");
 
 });
 
